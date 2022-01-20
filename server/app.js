@@ -19,11 +19,11 @@ app.get("/", (req, res) => {
 
 app.post("/api/mail", function (request, response) {
     const transporter = nodemailer.createTransport({
-        host: 'smtp.ethereal.email',
+        host: 'smtp - server - hostname',
         port: 587,
         auth: {
-            user: 'carrie.harvey67@ethereal.email',
-            pass: 'Qnv7W9JaErjhNyuhsK'
+            user: 'username@gmail.com',
+            pass: 'password'
         }
     });
    
