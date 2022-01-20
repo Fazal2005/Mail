@@ -1,5 +1,5 @@
 # Mail
-Sending Mail using Nodemailer with POST API 
+Sending Mail using Nodemailer with POST API in Node js
 
 ### POST Request
 **/api/mail**<br />
